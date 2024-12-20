@@ -21,8 +21,8 @@ Face mask detection is a binary classification problem solved using a Convolutio
 
 Before running the project, ensure you have the following installed:
 
-- Python 3.6+
-- TensorFlow 2.x
+- Python
+- TensorFlow
 - OpenCV
 - NumPy
 - Matplotlib
@@ -83,21 +83,6 @@ The training script generates plots for:
 
 These are displayed using Matplotlib at the end of the training process.
 
-## Key Scripts
-
-- **`train_mask_detector.py`**: Script for training the CNN model.
-- **`detect_mask_video.py`**: Script for real-time mask detection using a webcam.
-
-## Results
-
-The model achieves the following performance metrics:
-
-- Precision: 0.XX
-- Recall: 0.XX
-- F1-Score: 0.XX
-
-> Replace `XX` with actual values from your classification report.
-
 ## Future Enhancements
 
 - Add support for detecting multiple classes of masks.
@@ -109,4 +94,5 @@ The model achieves the following performance metrics:
 - [MobileNetV2](https://arxiv.org/abs/1801.04381): For efficient feature extraction.
 - [OpenCV](https://opencv.org/): For face detection and webcam integration.
 - The [face mask dataset](#): Include the source of your dataset if publicly available.
+
 # face-mask-detection
