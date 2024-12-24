@@ -94,5 +94,3 @@ These are displayed using Matplotlib at the end of the training process.
 - [MobileNetV2](https://arxiv.org/abs/1801.04381): For efficient feature extraction.
 - [OpenCV](https://opencv.org/): For face detection and webcam integration.
 - The [face mask dataset](#): Include the source of your dataset if publicly available.
-
-# face-mask-detection
